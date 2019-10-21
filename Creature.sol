@@ -37,7 +37,7 @@ contract CreatureCont {
         createCreature(nick, Types(random()%4), random()%10000, b, trade);
     }
     
-    // ERC20 compatible functions
+    // ERC721 compatible functions
     function name() public view returns (string memory name) {
         return "CreatureToken";
     }
