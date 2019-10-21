@@ -1,6 +1,6 @@
 pragma solidity ^0.4.24;
 
-contract Test {
+contract CreatureCont {
 
     enum Types { fire, water, air, earth }
     
